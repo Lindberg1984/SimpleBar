@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.main__list {
+  list-style-type: none;
+  flex-grow: 1;
+  margin-left: 110px;
+}
+
+.main__list li {
+  display: inline-block;
+  margin: 40px;
+}
+
+.main__list li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.image__jack {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 10px 0 0 10px;
+}
